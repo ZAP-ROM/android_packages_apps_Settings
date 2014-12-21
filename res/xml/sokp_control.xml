@@ -46,6 +46,13 @@
                 android:icon="@drawable/ic_settings_home"
                 /> 
 				
+	    <!-- Circle app bar -->
+        <PreferenceScreen
+                android:key="app_circle_bar"
+                android:fragment="com.android.settings.sokp.AppCircleBar"
+                android:title="@string/app_circle_bar_title"
+				/>
+			
 	    <!-- Gesture anywhere -->
         <PreferenceScreen
                 android:id="@+id/gesture_anywhere"
