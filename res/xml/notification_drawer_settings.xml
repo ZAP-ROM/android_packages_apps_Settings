@@ -55,8 +55,12 @@
             android:key="qs_use_four_columns"
             android:title="@string/qs_four_columns_title"
             android:defaultValue="false" />
-	
-
+            
+        <PreferenceScreen
+            android:key="qs_colors"
+            android:title="@string/qs_colors_title"
+            android:fragment="com.android.settings.sokp.QSColors" />
+                        
         <com.android.settings.cyanogenmod.SecureSettingSwitchPreference
             android:key="qs_show_brightness_slider"
             android:title="@string/qs_brightness_slider_title"
