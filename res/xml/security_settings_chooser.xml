@@ -49,6 +49,12 @@
                 android:title="@string/lockscreen_visualizer_title"
                 android:defaultValue="true"
                 settings:advanced="true"/>
+				
+		<PreferenceScreen
+            android:key="lockscreen_weather"
+            android:title="@string/lock_screen_weather_settings_title"
+            android:summary="@string/lock_screen_weather_settings_title_summary"
+            android:fragment="com.android.settings.sokp.LockScreenWeatherSettings" />		
 
     </PreferenceCategory>
 
