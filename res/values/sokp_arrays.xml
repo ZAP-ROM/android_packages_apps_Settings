@@ -411,7 +411,7 @@
         <item>30000</item>
         <item>60000</item>
     </string-array>
-
+	
     <!-- Volume panel timeout -->
     <string-array name="volume_panel_time_out_entries">
         <item>@string/volume_panel_time_out_1sec</item>
