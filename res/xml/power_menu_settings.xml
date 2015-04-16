@@ -19,6 +19,17 @@
     android:title="@string/power_menu_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+	<com.android.settings.cyanogenmod.SystemSettingSwitchPreference
+         android:key="lockscreen_enable_power_menu"
+         android:title="@string/lockscreen_enable_power_menu_title"
+         android:summary="@string/lockscreen_enable_power_menu_summary"
+         android:defaultValue="true" />	
+	
+	<com.android.settings.widget.NumberPickerPreference
+        android:key="screenshot_delay"
+        android:title="@string/powermenu_screenshot_delay_title"
+        android:dependency="screenshot" />	
+	
     <CheckBoxPreference
         android:key="reboot"
         android:title="@string/power_menu_reboot_title"
@@ -45,11 +56,6 @@
         android:defaultValue="true" />
 
     <CheckBoxPreference
-        android:key="users"
-        android:title="@string/power_menu_users_title"
-        android:defaultValue="false" />
-
-    <CheckBoxPreference
         android:key="settings"
         android:title="@string/power_menu_settings_title"
         android:defaultValue="false" />
@@ -68,16 +74,10 @@
         android:key="silent"
         android:title="@string/power_menu_sound_title"
         android:defaultValue="false" />
-		
-	<com.android.settings.widget.NumberPickerPreference
-        android:key="screenshot_delay"
-        android:title="@string/powermenu_screenshot_delay_title"
-        android:dependency="screenshot" />	
-
-	<com.android.settings.cyanogenmod.SystemSettingSwitchPreference
-         android:key="lockscreen_enable_power_menu"
-         android:title="@string/lockscreen_enable_power_menu_title"
-         android:summary="@string/lockscreen_enable_power_menu_summary"
-         android:defaultValue="true" />	
-		 
+	
+	<CheckBoxPreference
+        android:key="users"
+        android:title="@string/power_menu_users_title"
+        android:defaultValue="false" />
+				 
 </PreferenceScreen>

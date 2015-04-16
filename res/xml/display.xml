@@ -37,6 +37,12 @@
                 android:summary="@string/auto_brightness_summary"
                 android:persistent="false" />
 
+		<!-- Active Display -->		
+		<PreferenceScreen
+                android:key="doze_fragment"
+                android:title="@string/doze_title"
+                android:fragment="com.android.settings.sokp.AmbientSettings" />
+				
         <!-- LiveDisplay -->
         <PreferenceScreen
                 android:key="live_display"
@@ -50,17 +56,21 @@
                 android:title="@string/display_rotation_title"
                 android:fragment="com.android.settings.cyanogenmod.DisplayRotation"
                 settings:advanced="true"/>
+				
+		<!-- Seconds before sleep -->
+        <ListPreference
+                android:key="screen_timeout"
+                android:title="@string/screen_timeout"
+                android:summary="@string/screen_timeout_summary"
+                android:persistent="false"
+                android:entries="@array/screen_timeout_entries"
+                android:entryValues="@array/screen_timeout_values" />		
 
         <!-- Auto rotate screen -->
         <SwitchPreference
                 android:key="accelerometer"
                 android:title="@string/accelerometer_title"
                 settings:advanced="false"/>
-
-        <PreferenceScreen
-                android:key="doze_fragment"
-                android:title="@string/doze_title"
-                android:fragment="com.android.settings.sokp.AmbientSettings" />
 
         <!-- Lift to wake -->
         <SwitchPreference
@@ -89,14 +99,7 @@
                 android:defaultValue="true"
                 settings:advanced="true"/>
 
-        <!-- Seconds before sleep -->
-        <ListPreference
-                android:key="screen_timeout"
-                android:title="@string/screen_timeout"
-                android:summary="@string/screen_timeout_summary"
-                android:persistent="false"
-                android:entries="@array/screen_timeout_entries"
-                android:entryValues="@array/screen_timeout_values" />
+        
 
         <!-- Wake on plug -->
         <SwitchPreference
