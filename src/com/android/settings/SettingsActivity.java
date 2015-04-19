@@ -87,7 +87,7 @@ import com.android.settings.dashboard.SearchResultsSummary;
 import com.android.settings.deviceinfo.Memory;
 import com.android.settings.deviceinfo.UsbSettings;
 import com.android.settings.fuelgauge.BatterySaverSettings;
-import com.android.settings.sokp.AmbientSettings;
+import com.android.settings.zap.AmbientSettings;
 import com.android.settings.fuelgauge.PowerUsageSummary;
 import com.android.settings.livedisplay.LiveDisplay;
 import com.android.settings.lockscreen.LockScreenSettings;
@@ -124,7 +124,7 @@ import com.android.settings.wifi.AdvancedWifiSettings;
 import com.android.settings.wifi.SavedAccessPointsWifiSettings;
 import com.android.settings.wifi.WifiSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
-import com.android.settings.sokp.SOKPControl;
+import com.android.settings.zap.ZAPControl;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
@@ -258,7 +258,7 @@ public class SettingsActivity extends Activity
             R.id.status_bar_settings,
             R.id.dashboard,
             R.id.privacy_settings_cyanogenmod,
-            R.id.sokp_control
+            R.id.zap_control
 
     };
 
@@ -328,7 +328,7 @@ public class SettingsActivity extends Activity
             ProfilesSettings.class.getName(),
             com.android.settings.cyanogenmod.PrivacySettings.class.getName(),
             NotificationManagerSettings.class.getName(),
-			com.android.settings.sokp.SOKPControl.class.getName(),
+			com.android.settings.zap.ZAPControl.class.getName(),
             LockScreenSettings.class.getName(),
             LiveDisplay.class.getName(),
             ProfilesSettings.class.getName(),

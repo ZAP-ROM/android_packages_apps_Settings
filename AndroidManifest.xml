@@ -1929,7 +1929,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.android.settings.sokp.AmbientSettings" />
+                android:value="com.android.settings.zap.AmbientSettings" />
             <meta-data android:name="com.android.settings.TOP_LEVEL_HEADER_ID"
                 android:resource="@id/display_and_lights_settings" />
         </activity>
@@ -2297,20 +2297,20 @@
                        android:resource="@id/lockscreen_settings" />
         </activity>
 		
-        <!-- SOKP Control -->
-        <activity android:name="Settings$SOKPControlActivity"
-            android:label="@string/sokp_control"
+        <!-- ZAP Control -->
+        <activity android:name="Settings$ZAPControlActivity"
+            android:label="@string/zap_control"
             android:taskAffinity="">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.android.settings.sokp.SOKPControl" />
+                android:value="com.android.settings.zap.ZAPControl" />
         </activity>
 
         <activity
-            android:name=".sokp.SOKPControl" />
+            android:name=".zap.ZAPControl" />
 			
         <provider
             android:name=".search.SettingsSearchIndexablesProvider"
@@ -2352,8 +2352,8 @@
         </activity>
 
         <!-- Gesture anywhere -->
-        <activity android:name=".sokp.gestureanywhere.GestureAnywhereBuilderActivity" />
-        <activity android:name=".sokp.gestureanywhere.GestureAnywhereCreateGestureActivity" />
+        <activity android:name=".zap.gestureanywhere.GestureAnywhereBuilderActivity" />
+        <activity android:name=".zap.gestureanywhere.GestureAnywhereCreateGestureActivity" />
 
     </application>
 </manifest>

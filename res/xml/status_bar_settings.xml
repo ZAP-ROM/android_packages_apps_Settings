@@ -35,7 +35,7 @@
 	<PreferenceScreen
         android:key="traffic"
         android:title="@string/traffic_category"
-        android:fragment="com.android.settings.sokp.NetworkTraffic" />	
+        android:fragment="com.android.settings.zap.NetworkTraffic" />	
 	
     <ListPreference
         android:key="status_bar_battery_style"
