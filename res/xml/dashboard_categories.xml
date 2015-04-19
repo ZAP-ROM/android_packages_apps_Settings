@@ -115,13 +115,13 @@
     <dashboard-category
             android:id="@+id/personal_section"
             android:title="@string/header_category_personal" >
-    			
-        <!-- SOKP Control -->
-		<dashboard-tile	
-		        android:id="@+id/sokp_control"
-                android:title="@string/sokp_control"
-                android:fragment="com.android.settings.sokp.SOKPControl"
-                android:icon="@drawable/ic_sokp_control"
+
+	<!-- Home -->
+        <dashboard-tile
+                android:id="@+id/home_settings"
+                android:title="@string/home_settings"
+                android:fragment="com.android.settings.HomeSettings"
+                android:icon="@drawable/ic_settings_home"
                 /> 
 				
         <!-- Themes -->
@@ -135,6 +135,14 @@
                 <categories android:name="cyanogenmod.intent.category.APP_THEMES" />
             </intent>
         </dashboard-tile>
+    			
+        <!-- ZAP Control -->
+		<dashboard-tile	
+		        android:id="@+id/zap_control"
+                android:title="@string/zap_control"
+                android:fragment="com.android.settings.zap.ZAPControl"
+                android:icon="@drawable/ic_zap_control"
+                />
         
     </dashboard-category>
 
@@ -234,6 +242,14 @@
                 android:title="@string/location_settings_title"
                 android:fragment="com.android.settings.location.LocationSettings"
                 android:icon="@drawable/ic_settings_location"
+                />	
+	
+	<!-- Manage users -->
+        <dashboard-tile
+                android:id="@+id/user_settings"
+                android:title="@string/user_settings_title"
+                android:fragment="com.android.settings.users.UserSettings"
+                android:icon="@drawable/ic_settings_multiuser"
                 />
 
     </dashboard-category>

@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2015 The ZAP-ROM Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+
+    <!-- Gesture Anywhere -->
+    <string-array name="gesture_anywhere_position_entries" translatable="false">
+        <item>@string/gesture_anywhere_position_left</item>
+        <item>@string/gesture_anywhere_position_right</item>
+    </string-array>
+
+    <string-array name="gesture_anywhere_position_values" translatable="false">
+        <item>3</item>
+        <item>5</item>
+    </string-array>
+
+	<!-- Navigation bar custom dimensions -->
+    <string-array name="navigation_bar_width_entries" translatable="false">
+        <item>@string/navigation_bar_size_42_dp_default</item>
+        <item>@string/navigation_bar_size_40_dp</item>
+        <item>@string/navigation_bar_size_36_dp</item>
+        <item>@string/navigation_bar_size_30_dp</item>
+        <item>@string/navigation_bar_size_24_dp</item>
+        <item>@string/navigation_bar_size_0_dp</item>
+    </string-array>
+
+    <string-array name="navigation_bar_width" translatable="false">
+        <item>42</item>
+        <item>40</item>
+        <item>36</item>
+        <item>30</item>
+        <item>24</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array name="navigation_bar_height_entries" translatable="false">
+        <item>@string/navigation_bar_size_48_dp_default</item>
+        <item>@string/navigation_bar_size_44_dp</item>
+        <item>@string/navigation_bar_size_42_dp</item>
+        <item>@string/navigation_bar_size_40_dp</item>
+        <item>@string/navigation_bar_size_36_dp</item>
+        <item>@string/navigation_bar_size_30_dp</item>
+        <item>@string/navigation_bar_size_24_dp</item>
+        <item>@string/navigation_bar_size_0_dp</item>
+    </string-array>
+
+    <string-array name="navigation_bar_height" translatable="false">
+        <item>48</item>
+        <item>44</item>
+        <item>42</item>
+        <item>40</item>
+        <item>36</item>
+        <item>30</item>
+        <item>24</item>
+        <item>0</item>
+    </string-array>
+	
+	    <!-- Network Traffic Display States -->
+    <string-array name="show_network_traffic_state_entries" translatable="false">
+        <item>@string/show_network_traffic_disable</item>
+        <item>@string/show_network_traffic_up</item>
+        <item>@string/show_network_traffic_down</item>
+        <item>@string/show_network_traffic_all</item>
+    </string-array>
+
+    <string-array name="show_network_traffic_state_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <!-- Network Traffic Display Unit -->
+    <string-array name="show_network_traffic_unit_entries" translatable="false">
+        <item>@string/show_network_traffic_bit</item>
+        <item>@string/show_network_traffic_byte</item>
+    </string-array>
+
+    <string-array name="show_network_traffic_unit_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <!-- Network Traffic Period -->
+    <string-array name="show_network_traffic_frequency_entries" translatable="false">
+        <item>@string/show_network_traffic_500</item>
+        <item>@string/show_network_traffic_1000</item>
+        <item>@string/show_network_traffic_1500</item>
+        <item>@string/show_network_traffic_2000</item>
+    </string-array>
+
+    <string-array name="show_network_traffic_frequency_values" translatable="false">
+        <item>500</item>
+        <item>1000</item>
+        <item>1500</item>
+        <item>2000</item>
+    </string-array>
+
+    <!-- Density changer -->
+    <string-array name="lcd_density_entries" translatable="false">
+        <item>240</item>
+        <item>242</item>
+        <item>244</item>
+        <item>246</item>
+        <item>248</item>
+        <item>250</item>
+        <item>252</item>
+        <item>254</item>
+        <item>256</item>
+        <item>258</item>
+        <item>260</item>
+        <item>262</item>
+        <item>264</item>
+        <item>266</item>
+        <item>268</item>
+        <item>270</item>
+        <item>272</item>
+        <item>274</item>
+        <item>276</item>
+        <item>278</item>
+        <item>280</item>
+        <item>282</item>
+        <item>284</item>
+        <item>285</item>
+        <item>286</item>
+        <item>288</item>
+        <item>290</item>
+        <item>292</item>
+        <item>294</item>
+        <item>296</item>
+        <item>298</item>
+        <item>300</item>
+        <item>302</item>
+        <item>304</item>
+        <item>306</item>
+        <item>308</item>
+        <item>310</item>
+        <item>312</item>
+        <item>314</item>
+        <item>316</item>
+        <item>318</item>
+        <item>320</item>
+        <item>322</item>
+        <item>324</item>
+        <item>326</item>
+        <item>328</item>
+        <item>330</item>
+        <item>332</item>
+        <item>334</item>
+        <item>336</item>
+        <item>338</item>
+        <item>340</item>
+        <item>342</item>
+        <item>344</item>
+        <item>346</item>
+        <item>348</item>
+        <item>350</item>
+        <item>352</item>
+        <item>354</item>
+        <item>356</item>
+        <item>358</item>
+        <item>360</item>
+        <item>361</item>
+        <item>362</item>
+        <item>364</item>
+        <item>366</item>
+        <item>368</item>
+        <item>370</item>
+        <item>372</item>
+        <item>374</item>
+        <item>376</item>
+        <item>378</item>
+        <item>380</item>
+        <item>382</item>
+        <item>384</item>
+        <item>385</item>
+        <item>386</item>
+        <item>388</item>
+        <item>390</item>
+        <item>392</item>
+        <item>394</item>
+        <item>396</item>
+        <item>398</item>
+        <item>400</item>
+        <item>402</item>
+        <item>404</item>
+        <item>406</item>
+        <item>408</item>
+        <item>410</item>
+        <item>412</item>
+        <item>414</item>
+        <item>416</item>
+        <item>418</item>
+        <item>420</item>
+        <item>422</item>
+        <item>424</item>
+        <item>426</item>
+        <item>428</item>
+        <item>430</item>
+        <item>432</item>
+        <item>434</item>
+        <item>436</item>
+        <item>438</item>
+        <item>440</item>
+        <item>442</item>
+        <item>444</item>
+        <item>446</item>
+        <item>448</item>
+        <item>450</item>
+        <item>452</item>
+        <item>454</item>
+        <item>456</item>
+        <item>458</item>
+        <item>460</item>
+        <item>462</item>
+        <item>464</item>
+        <item>466</item>
+        <item>468</item>
+        <item>470</item>
+        <item>472</item>
+        <item>474</item>
+        <item>476</item>
+        <item>478</item>
+        <item>480</item>
+        <item>560</item>
+        <item>@string/custom_density</item>
+    </string-array>
+
+    <string-array name="lcd_density_stock_entries">
+        <item>160 -- mdpi</item>
+        <item>240 -- hdpi</item>
+        <item>320 -- xhdpi</item>
+        <item>480 -- xxhdpi</item>
+        <item>560 -- xxxhdpi</item>
+    </string-array>
+
+    <string-array name="lcd_density_stock_values" translatable="false">
+        <item>160</item>
+        <item>240</item>
+        <item>320</item>
+        <item>480</item>
+        <item>560</item>
+    </string-array>
+
+	<!-- MediaScanner behavior on boot -->
+    <string-array name="media_scanner_on_boot_entries">
+        <item>@string/media_scanner_on_boot_enabled</item>
+        <item>@string/media_scanner_on_boot_ask</item>
+        <item>@string/media_scanner_on_boot_disabled</item>
+    </string-array>
+
+    <string-array name="media_scanner_on_boot_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+	
+	<!-- Toast Animation -->
+    <string-array name="toast_animation_entries">
+        <item>@string/toast_none_animation</item>
+        <item>@string/toast_default_animation</item>
+        <item>@string/toast_fade_animation</item>
+        <item>@string/toast_SlideRight_animation</item>
+        <item>@string/toast_SlideLeft_animation</item>
+        <item>@string/toast_Xylon_animation</item>
+        <item>@string/toast_Toko_animation</item>
+        <item>@string/toast_Tn_animation</item>
+        <item>@string/toast_Honami_animation</item>
+        <item>@string/toast_FastFade_animation</item>
+        <item>@string/toast_GrowFade_animation</item>
+        <item>@string/toast_GrowFadeCenter_animation</item>
+        <item>@string/toast_GrowFadeBottom_animation</item>
+        <item>@string/toast_Translucent_animation</item>
+        <item>@string/toast_SlideLeftRight_animation</item>
+        <item>@string/toast_SlideRightLeft_animation</item>
+    </string-array>
+	
+	<string-array name="toast_animation_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+    </string-array>
+	
+	<!-- Listview animation -->
+    <string-array name="listview_animation_entries">
+        <item>@string/listview_off</item>
+        <item>@string/listview_wave_left</item>
+        <item>@string/listview_wave_right</item>
+        <item>@string/listview_scale</item>
+        <item>@string/listview_alpha</item>
+        <item>@string/listview_stack_top</item>
+        <item>@string/listview_stack_bottom</item>
+        <item>@string/listview_unfold</item>
+        <item>@string/listview_fold</item>
+        <item>@string/listview_translate_left</item>
+        <item>@string/listview_translate_right</item>
+    </string-array>
+
+    <string-array name="listview_animation_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+		
+	<!-- Listview Interpolator -->
+    <string-array name="listview_interpolator_entries">
+        <item>@string/listview_off</item>
+        <item>@string/listview_accelerate_interpolator</item>
+        <item>@string/listview_decelerate_interpolator</item>
+        <item>@string/listview_accelerate_decelerate_interpolator</item>
+        <item>@string/listview_anticipate_interpolator</item>
+        <item>@string/listview_overshoot_interpolator</item>
+        <item>@string/listview_anticipate_overshoot_interpolator</item>
+        <item>@string/listview_bounce_interpolator</item>
+    </string-array>
+
+    <string-array name="listview_interpolator_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+	
+	<!-- LS Weather -->
+    <string-array name="weather_condition_icon_entries">
+        <item>@string/weather_condition_icon_monochrome_title</item>
+        <item>@string/weather_condition_icon_colored_title</item>
+        <item>@string/weather_condition_icon_vclouds_title</item>
+    </string-array>
+
+    <string-array name="weather_condition_icon_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="clock_date_position_entries">
+        <item>@string/position_right_title</item>
+        <item>@string/position_centered_title</item>
+        <item>@string/hidden_title</item>
+    </string-array>
+	
+	<!-- long press back to kill configurable timeout -->
+    <string-array name="kill_app_longpress_timeout_entries">
+        <item>@string/timeout_2000</item>
+        <item>@string/timeout_1500</item>
+        <item>@string/timeout_1000</item>
+        <item>@string/timeout_500</item>
+    </string-array>
+
+    <string-array name="kill_app_longpress_timeout_values" translatable="false">
+        <item>2000</item>
+        <item>1500</item>
+        <item>1000</item>
+        <item>500</item>
+    </string-array>
+		
+	<!-- Auto keyboard rotation -->
+    <string-array name="keyboard_rotation_timeout_entries" translatable="false">
+        <item>2s</item>
+        <item>5s</item>
+        <item>10s</item>
+        <item>20s</item>
+        <item>30s</item>
+        <item>60s</item>
+    </string-array>
+
+    <string-array name="keyboard_rotation_timeout_values" translatable="false">
+        <item>2000</item>
+        <item>5000</item>
+        <item>10000</item>
+        <item>20000</item>
+        <item>30000</item>
+        <item>60000</item>
+    </string-array>
+	
+    <!-- Volume panel timeout -->
+    <string-array name="volume_panel_time_out_entries">
+        <item>@string/volume_panel_time_out_1sec</item>
+        <item>@string/volume_panel_time_out_3sec</item>
+        <item>@string/volume_panel_time_out_5sec</item>
+        <item>@string/volume_panel_time_out_8sec</item>
+        <item>@string/volume_panel_time_out_12sec</item>
+        <item>@string/volume_panel_time_out_15sec</item>
+    </string-array>
+
+    <string-array name="volume_panel_time_out_values" translatable="false">
+        <item>1000</item>
+        <item>3000</item>
+        <item>5000</item>
+        <item>8000</item>
+        <item>12000</item>
+        <item>15000</item>
+    </string-array>
+
+    <!-- Doze pulse (ambient display) options -->
+    <string-array name="doze_pulse_duration_in_entries" translatable="false">
+        <item>@string/twohundred_ms</item>
+        <item>@string/fivehundred_ms</item>
+        <item>@string/one_second_default</item>
+        <item>@string/onehalf_second</item>
+        <item>@string/two_second</item>
+    </string-array>
+
+    <string-array name="doze_pulse_duration_in_values" translatable="false">
+        <item>200</item>
+        <item>500</item>
+        <item>1000</item>
+        <item>1500</item>
+        <item>2000</item>
+    </string-array>
+
+    <string-array name="doze_pulse_duration_visible_entries" translatable="false">
+        <item>@string/one_second</item>
+        <item>@string/onehalf_second</item>
+        <item>@string/two_second</item>
+        <item>@string/twohalf_second</item>
+        <item>@string/three_second_default</item>
+        <item>@string/threehalf_second</item>
+        <item>@string/four_second</item>
+        <item>@string/fourhalf_second</item>
+        <item>@string/five_second</item>
+    </string-array>
+
+    <string-array name="doze_pulse_duration_visible_values" translatable="false">
+        <item>1000</item>
+        <item>1500</item>
+        <item>2000</item>
+        <item>2500</item>
+        <item>3000</item>
+        <item>3500</item>
+        <item>4000</item>
+        <item>4500</item>
+        <item>5000</item>
+    </string-array>
+
+    <string-array name="doze_shake_acc_threshold_entries" translatable="false">
+        <item>@string/veryeasy_shake</item>
+        <item>@string/easy_shake</item>
+        <item>@string/medium_shake</item>
+        <item>@string/hard_shake</item>
+        <item>@string/veryhard_shake</item>
+        <item>@string/strong_shake</item>
+    </string-array>
+
+    <string-array name="doze_shake_acc_threshold_values" translatable="false">
+        <item>2</item>
+        <item>5</item>
+        <item>10</item>
+        <item>13</item>
+        <item>16</item>
+        <item>20</item>
+    </string-array>
+
+    <string-array name="doze_list_mode_entries" translatable="false">
+        <item>@string/fully_mode</item>
+        <item>@string/pocket_shake_mode</item>
+        <item>@string/pocket_pulse_mode</item>
+        <item>@string/pocket_only_mode</item>
+        <item>@string/shake_pulse_mode</item>
+        <item>@string/pulse_only_mode</item>
+    </string-array>
+
+    <string-array name="doze_list_mode_values" translatable="false">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>	
+	
+</resources>
