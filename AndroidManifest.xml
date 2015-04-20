@@ -2297,20 +2297,20 @@
                        android:resource="@id/lockscreen_settings" />
         </activity>
 		
-        <!-- ZAP Control -->
-        <activity android:name="Settings$ZAPControlActivity"
-            android:label="@string/zap_control"
+        <!-- ZAP Settings -->
+        <activity android:name="Settings$ZAPSettingsActivity"
+            android:label="@string/zap_settings"
             android:taskAffinity="">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.android.settings.zap.ZAPControl" />
+                android:value="com.android.settings.zap.ZAPSettings" />
         </activity>
 
         <activity
-            android:name=".zap.ZAPControl" />
+            android:name=".zap.ZAPSettings" />
 			
         <provider
             android:name=".search.SettingsSearchIndexablesProvider"

@@ -33,9 +33,11 @@
     <string name="settings_cmlicense_activity_title">ZAP-ROM PROJECT legal</string>
     <string name="settings_cmlicense_activity_unreachable">You don\'t have a data connection. To view this information now, go to %s from any computer connected to the Internet.</string>
    
-    <!-- ZAP Control -->
-    <string name="zap_control">ZAP Control</string>
-	<string name="animation_settings_title">Animation Control</string>
+    <!-- ZAP Settings -->
+    <string name="zap_settings">ZAP Settings</string>
+    <string name="animation_settings_title">Animation Control</string>
+    <string name="misc_tweaks_title">General</string>
+    <string name="notif_tweaks_title">System UI</string>
 	
 	<!-- ZAP Statistics -->
 	<string name="zap_stats">ZAP Statistics</string>	

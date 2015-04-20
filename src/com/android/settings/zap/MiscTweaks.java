@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2015 The SONIC OPEN KANG PROJECT
+ * Copyright (C) 2015 The ZAP-ROM PROJECT
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,6 +16,7 @@
 
 package com.android.settings.zap;
 
+import android.app.Fragment;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
@@ -28,12 +29,12 @@ import com.android.settings.SettingsPreferenceFragment;
 
 import java.util.List;
 
-public class ZAPControl extends SettingsPreferenceFragment {
+public class MiscTweaks extends SettingsPreferenceFragment {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        addPreferencesFromResource(R.xml.zap_control);
+        addPreferencesFromResource(R.xml.misc_tweaks);
     }
 }

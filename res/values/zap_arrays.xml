@@ -506,6 +506,12 @@
         <item>4</item>
         <item>5</item>
         <item>6</item>
+    </string-array>
+
+    <!-- Names of categories of ZAP-Settings tabs -->
+    <string-array name="interface_tabs_catogory">
+        <item>General</item>
+        <item>System UI</item>
     </string-array>	
 	
 </resources>
