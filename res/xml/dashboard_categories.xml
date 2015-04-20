@@ -138,10 +138,10 @@
     			
         <!-- ZAP Control -->
 		<dashboard-tile	
-		        android:id="@+id/zap_control"
-                android:title="@string/zap_control"
-                android:fragment="com.android.settings.zap.ZAPControl"
-                android:icon="@drawable/ic_zap_control"
+		android:id="@+id/zap_settings"
+                android:title="@string/zap_settings"
+                android:fragment="com.android.settings.zap.ZAPSettings"
+                android:icon="@drawable/ic_zap_settings"
                 />
         
     </dashboard-category>

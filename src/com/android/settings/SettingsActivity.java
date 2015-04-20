@@ -124,7 +124,7 @@ import com.android.settings.wifi.AdvancedWifiSettings;
 import com.android.settings.wifi.SavedAccessPointsWifiSettings;
 import com.android.settings.wifi.WifiSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
-import com.android.settings.zap.ZAPControl;
+import com.android.settings.zap.ZAPSettings;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
@@ -258,7 +258,7 @@ public class SettingsActivity extends Activity
             R.id.status_bar_settings,
             R.id.dashboard,
             R.id.privacy_settings_cyanogenmod,
-            R.id.zap_control
+            R.id.zap_settings
 
     };
 
@@ -328,7 +328,7 @@ public class SettingsActivity extends Activity
             ProfilesSettings.class.getName(),
             com.android.settings.cyanogenmod.PrivacySettings.class.getName(),
             NotificationManagerSettings.class.getName(),
-			com.android.settings.zap.ZAPControl.class.getName(),
+			com.android.settings.zap.ZAPSettings.class.getName(),
             LockScreenSettings.class.getName(),
             LiveDisplay.class.getName(),
             ProfilesSettings.class.getName(),
